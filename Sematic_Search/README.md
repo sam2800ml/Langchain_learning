@@ -24,3 +24,7 @@ Vector search is a common way to store and search over unstructured data, the id
 Vector store objects contains methods for adding text and Document objects, and then querying them using similarity metrics, for this vector store we can use different methods we can use the one integrate in langchain or we can use external by third parties like postgress, pinecone, fais, chroma, all of this are already integrate it, and will be easier.
 >
 To make out vector store work better we have to pass it the embedding model, because it needs to know the model to be able to store all the information, also we can pass after out chunks so it can be store, and then we can start querying the documents, we can use Synchronously and asynchronously, we can also use the similarity scores, and by similarity maximum marginal relevance
+
+## Retrievers
+
+Retrievers in langchain are Runnables, 
